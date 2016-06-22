@@ -1,0 +1,18 @@
+<ion-navbar *navbar>
+  <ion-title>Selected Fact</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+  <h2>Your Repo:</h2>
+  <ion-card *ngFor="let repo of foundRepos">
+        <ion-card-header>
+            {{ repo.name }}
+        </ion-card-header>
+        <ion-card-content>
+            {{ repo.description }}
+        </ion-card-content>
+    </ion-card>
+    <div padding>
+  <button (click)="goBack()">Go Back</button>
+    </div>
+</ion-content>

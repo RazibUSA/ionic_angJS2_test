@@ -1,0 +1,20 @@
+<ion-navbar *navbar>
+  <ion-title>Home</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <h2>Welcome to Github</h2>
+ <img src="build/img/github.png" class="img-rounded" alt="GITHUB" width="304" height="140">
+ <h3> Input Your Github UserName</h3>
+
+    
+<ion-list inset>
+        <ion-item>
+            <ion-label>Username</ion-label>
+            <ion-input [(ngModel)]="username" type="text"></ion-input>
+        </ion-item>
+    </ion-list>
+    <div padding>
+        <button block (click)="getRepos()">Go To My Repo</button>
+    </div>    
+</ion-content>
