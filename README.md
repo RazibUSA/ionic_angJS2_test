@@ -10,3 +10,7 @@ Technolgies:
 5.NOdejs
 
 Project was build and tested on NOdejs server.
+
+Here is the output:
+
+![Mobile output](https://github.com/RazibUSA/ionic_angJS2_test/blob/master/github_p.png)
